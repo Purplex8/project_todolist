@@ -1,5 +1,12 @@
 <?php
 
+// настройка DB
+define('DB_HOST', 'database');
+define('DB_USER', 'root');
+define('DB_PASS', 'purp');
+define('DB_NAME', 'todo');
+
+// физический путь к корневой директории скрипта
 define('ROOT', dirname(__FILE__). '/');
 define('HOST', 'http://' . $_SERVER['HTTP_HOST'] . '/');
 
